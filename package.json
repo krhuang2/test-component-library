@@ -1,6 +1,9 @@
 {
-  "name": "test-component-library",
+  "name": "@krhuang2/test-component-library",
   "version": "0.0.1",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/krhuang2"
+  },
   "description": "This is a test library.",
   "scripts": {
     "rollup": "rollup -c"
