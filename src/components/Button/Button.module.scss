@@ -3,10 +3,9 @@
 $buttonColorFallback: #4CAF50;
 
 .button {
-    background-color: (--button-color, $buttonColorFallback);
+    background-color: var(--button-color, $buttonColorFallback);
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
